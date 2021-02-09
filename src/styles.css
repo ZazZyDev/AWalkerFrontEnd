@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: AliceFont;
+    src: url("./assets/Alice_in_Wonderland_3.woff");
+  }
+  
+  div {
+    font-family: AliceFont;
+  }
+html, body { height: 100%; }
+body { margin: 0; }

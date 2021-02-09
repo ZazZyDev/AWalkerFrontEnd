@@ -1,0 +1,55 @@
+.material-icons{
+    font-size: 125%;
+    margin-top: 50%;
+}
+.body{
+    margin: 0;
+}
+.wrapper{
+    position:absolute;
+    background-color: #ebdac8; /* change to desired color */
+    height: 8%;
+    width: 100%;
+    border:0;
+    overflow: hidden; /* Hide scrollbar */
+    
+    
+}
+
+.navigation-bar {
+    width: 97.5%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    padding-left: 1%;
+    font-size: 200%;
+
+}
+.navigation-bar-right {
+    float: right;
+    margin-right: 2%
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+    margin-top: 5px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    color: black;
+    text-decoration: none;
+}
+.navigation-bar-right > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right:5px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    color: black;
+    text-decoration: none;
+}
