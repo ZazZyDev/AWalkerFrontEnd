@@ -6,7 +6,6 @@
     margin: 0;
 }
 .wrapper{
-    position:absolute;
     background-color: #ebdac8; /* change to desired color */
     height: 8%;
     width: 100%;

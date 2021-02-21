@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatImageSliderComponent } from './mat-image-slider/mat-image-slider.component';
+import { MatCarouselModule } from '@ngbmodule/material-carousel';
 
 
 
@@ -13,12 +17,18 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    CarouselComponent,
+    MatImageSliderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule,
+    MatCarouselModule.forRoot(),
+
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
